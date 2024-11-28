@@ -8,3 +8,6 @@
 
 
 ![2](https://github.com/user-attachments/assets/35c565ce-7f15-4cfe-9043-359441b187ef)
+
+**Create policy**
+
