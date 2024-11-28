@@ -12,7 +12,8 @@ The Lambda function fetches all EBS snapshots owned by the same account ('self')
 If it finds a stale snapshot, it deletes it, effectively optimizing storage costs.
 
 **condition**
-1-Ebs volume is connected with ec2 instance.Taking a snapshot of ebs volume.
+
+1-Ebs volume is connected with ec2 instance and taking a snapshot of ebs volume.
 
 2- if ec2 instanc is deleted and volume is also deleted snapshot is not deleted bymistake.Then its unnessacary charges need to 
    optimize trigger the lambda function.its check condition any snaphot is not match with volume ya instance its deleted
